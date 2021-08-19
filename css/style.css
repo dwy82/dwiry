@@ -1,0 +1,33 @@
+/*Start reset*/
+* {
+    /*   *= all elements */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+input:focus{
+    box-shadow: unset;
+    outline: unset;
+    border: unset;
+}
+
+
+/* px- unitate fixa.1 px = 1 led din monitor
+% -1 % din parinte
+vh - 1vh este 1% din viewport height
+vw - 1vw este 1% din viewport width 
+em - 1em = fontsize in px a celui mai apropiat
+ parinte care are fontsize definit
+ rem - 1rem = fontsize definit pe el HTML
+/* end reset*/
+h1 { 
+
+}
