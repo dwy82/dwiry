@@ -58,3 +58,22 @@ em - 1em = fontsize in px a celui mai apropiat
 div {
     display: block;
 }
+
+.container{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
